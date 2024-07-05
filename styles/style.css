@@ -523,13 +523,13 @@
     padding-block-start: 0;
   }
 
-  .footer::before {
-    right: 10px;
-    top: 10px;
-  }
-
   .footer::after {
     bottom: 10px;
     left: 10px;
+  }
+  
+  .footer::before {
+    right: 10px;
+    top: 10px;
   }
 }
