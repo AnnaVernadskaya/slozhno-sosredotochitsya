@@ -175,7 +175,7 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-style: normal;
   font-weight: 700;
-  line-height: 82.5%; 
+  line-height: 82.5%;
 }
 
 .header__decorated {
@@ -360,14 +360,10 @@
 }
 
 .footer__text {
-  color: var(--focus-color, #db00ff);
-  text-shadow: 2px 2px 0 var(--shadow-color, #ff0070);
-  line-height: 82.5%;
   padding-block-start: 40px;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--focus-color, #db00ff);
   text-shadow: 2px 2px 0px var(--shadow-color, #ff0070);
-  font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%;
@@ -449,7 +445,6 @@
 
   .decorated-zone {
     min-block-size: 648px;
-
     padding: 10px;
   }
 
@@ -527,7 +522,7 @@
     bottom: 10px;
     left: 10px;
   }
-  
+
   .footer::before {
     right: 10px;
     top: 10px;

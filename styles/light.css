@@ -1,6 +1,5 @@
 .page.theme_light {
   --bg-image: url(../images/cover-image-light.png) no-repeat center / cover;
-
   --bg-color: #FFF1F7; 
   --accent-color: #353430; 
   --title-decor-color: #353430;
@@ -16,7 +15,6 @@
 @media (prefers-color-scheme: light) {
   :root {
   --bg-image: url(../images/cover-image-light.png) no-repeat center / cover; 
-
   --bg-color: #FFF1F7;
   --accent-color: #353430;
   --title-decor-color: #353430;
