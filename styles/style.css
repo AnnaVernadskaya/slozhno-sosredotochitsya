@@ -370,6 +370,10 @@
   .recommendations__title {
     padding-bottom: 20px;
   }
+
+  .recommendations__subtitle {
+    margin-bottom: 0;
+}
 }
 
 @media (max-width: 377px) {
