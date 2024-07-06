@@ -11,4 +11,16 @@
   --shadow-color: #FF0070;
   --bg-text-color: #FF0070;
   --links-color: #FF0070;
+  --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --button-color-hover: rgb(255 0 112 / 0.4);
+}
+
+@media (max-width: 377px) {
+  :root {
+    --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}
+
+.page.theme_auto .header__decorated {
+  display: none;
 }

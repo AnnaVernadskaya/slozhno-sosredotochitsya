@@ -43,4 +43,9 @@ a {
   padding: 0;
   border: none;
   font: inherit;
+  cursor: pointer;
+}
+
+p:not(:last-child) {
+  margin-bottom: 10px;
 }

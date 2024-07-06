@@ -10,6 +10,8 @@
   --shadow-color: #FF0070;
   --bg-text-color: #FF8DCB;
   --links-color: #FF8DCB;
+  --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --button-color-hover: rgb(50 49 45 / 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,6 +27,14 @@
   --shadow-color: #FF0070;
   --bg-text-color: #FF8DCB;
   --links-color: #FF8DCB;
+  --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --button-color-hover: rgb(50 49 45 / 0.4);
+  }
+}
+
+@media (max-width: 377px) {
+  .page.theme_light {
+    --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
 
