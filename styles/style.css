@@ -225,6 +225,10 @@
   color: var(--accent-color, #ff0070);
 }
 
+.recommendations__subtitle {
+  margin-bottom: 20px;
+}
+
 .recommendations__item-subtitle {
   margin: 0;
   margin-block-end: 10px;
@@ -348,7 +352,7 @@
   }
 }
 
-@media (max-width: 600px) {  
+@media (max-width: 600px) {
   .header__subtitle {
     max-width: 100%;
   }
