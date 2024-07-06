@@ -32,6 +32,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .page.theme_light {
+    --shadow-color: #FF8DCB;
+  }
+}
+
 @media (max-width: 377px) {
   .page.theme_light {
     --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
